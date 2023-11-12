@@ -1,0 +1,145 @@
+body{
+    margin-top: 50px;
+    font-family: Verdana;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#khung{
+    padding: 40px 0;
+    border: 0 solid black;
+    width: 400px;
+    height: 483px;
+    
+    box-shadow: 0px 1px 7px 2px #999;
+}
+#khung > div {
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;
+}
+#dk{
+    font-size: 18px;
+    text-align: center;
+}
+p{
+    font-size: 12px;
+    text-align: center;
+}
+input {
+    padding: 0px px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+#hoten {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#hoten div {
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+    width: 47%;
+    padding-bottom: 5px;
+}
+#email {
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+    width: 100%;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    position: relative;
+}
+#yahoo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.6;
+}
+#line1 {
+    font-size: 12px;
+    margin-left: 14px;
+    margin-top: 2px;
+}
+#mat_khau {
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+    width: 100%;
+    padding-bottom: 5px;
+    margin-top: 7px;
+    position: relative;
+}
+#sdt {
+    display: flex;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    position: relative;
+    justify-content: space-between;
+}
+#sdt > input {
+    width: 75%;
+    height: 100%;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+}
+#ma_vung {
+    width: 20%;
+    height: 100%;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+}
+select {
+    padding: 0px px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    opacity: 0.6;
+}
+#day {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#thang_sinh {
+    width: 40%;
+    height: 100%;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+}
+#ngay, #nam {
+    width: 25%;
+    height: 100%;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+}
+#gioi_tinh {
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+    width: 100%;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+#line2 {
+    font-size: 11px;
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+a.button{
+    margin-left: 20px;
+    padding: 10px 127px;
+    background-color: rgb(24,143,255);
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+#tt {
+    color: white;
+    background-color: rgb(24,143,255);
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 10px;
+}

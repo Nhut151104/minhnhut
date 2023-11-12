@@ -1,0 +1,73 @@
+body{
+    margin-top: 50px;
+    font-family: Verdana;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#khung{
+    padding: 40px 0;
+    border: 0 solid black;
+    width: 400px;
+    height: 483px;
+    
+    box-shadow: 0px 1px 7px 2px #999;
+}
+#khung > div {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sdt {
+    display: flex;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    position: relative;
+    justify-content: space-between;
+}
+#sdt > input {
+    width: 75%;
+    height: 100%;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+}
+#ma_vung {
+    width: 20%;
+    height: 100%;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+}
+select {
+    padding: 0px px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    opacity: 0.6;
+}
+input {
+    padding: 0px px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+#line {
+    font-size: 14px;
+    margin-top: 30px;
+}
+#lin {
+    font-size: 12px;
+    opacity: 0.6;
+}
+button {
+    color: white;
+    background-color: rgb(24,143,255);
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 10px;
+}
